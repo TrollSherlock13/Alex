@@ -1,0 +1,358 @@
+html {
+    background-color: #181818;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 250px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #181818;
+}
+button {
+    border-radius: 5px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+}
+input[type=search]{
+    width: 300px;
+    height: 30px;
+    font-size: 10pt;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin: 4% 0 0 350px;
+}
+.section-logo{
+    display: block;
+    width: 30%;
+    border-radius: 5px;
+}
+/*img.section-logo{*/
+/*margin: auto;*/
+/*}*/
+/*.category-header{*/
+/*!*padding-bottom: 5%;*!*/
+/*width: 100%;*/
+/*margin: auto;*/
+/*display: flex;*/
+/*flex-wrap: wrap;*/
+/*}*/
+.imgcontainer {
+    text-align: left;
+    margin: 40px 0 20px -35px;
+}
+.login-form {
+    text-align: right;
+}
+.info-login {
+    margin: 90px 0 0 50px;
+}
+.logo {
+    padding-left: 65px;
+}
+
+.index-login {
+    padding-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.message {
+    font-size: 10px;
+}
+
+.container1 {
+    text-align: center;
+    margin: 250px 0 12px 0;
+}
+
+body {
+    text-align: center;
+}
+
+.login-button {
+    padding: 10px 50px;
+    font-feature-settings: 'Helvetica Neue';
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.form {
+    background: white;
+    padding: 7px;
+    max-width: 350px;
+    margin: 40px auto;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px 3px;
+}
+.form-login {
+    background: white;
+    padding: 7px;
+    max-width: 600px;
+    margin: 100px auto;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.register-text {
+    font-size: 15px;
+}
+
+.reset-pws-logo {
+    font-size: 15px;
+    /*text-color: white;*/
+}
+
+.button-block, .submit-button, .signin-button {
+    background-color: #181818;
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.main-header, .category-header {
+    margin: auto;
+    width: 500px;
+}
+
+.header {
+    color: white;
+}
+
+.header-logo {
+    color: white;
+}
+
+.category-name {
+    font-family: "Avenir Next";
+    color: white;
+    text-align: left;
+}
+
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    padding: 0 0 0 15px;
+}
+
+.header-link {
+    padding-top: 10px;
+}
+
+.book-section {
+    color: black;
+    border-radius: 2.5px;
+    background-color: white;
+    height: 425px;
+    margin: 0 45px 0 0;
+}
+
+.scrolling-booklist {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.book-card {
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    display: inline-block;
+    /*width: 130px;*/
+    /*height: 200px;*/
+    flex: 0 0 auto;
+    margin: 25px 25px 25px 23px;
+}
+.section-separator {
+    height: 25px;
+}
+/*temporary solution: find a proper one later*/
+.book-layout {
+    overflow-y: scroll;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.read-book {
+    margin-left: 25px;
+    width: 95%;
+    height: 95%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    /*border-radius: 5px;*/
+    /*border: 1px solid #181818;*/
+}
+.about-the-book, .book-cover {
+    width: 47%;
+    height: 100%;
+    /*padding-top: 2.5%;*/
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+}
+
+.book-expand {
+    margin-top: 10px;
+}
+
+.button-expand {
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+    padding: 8px 15px;
+    font-size: 20px;
+}
+
+.register-text, .tab-content {
+    font-feature-settings: "Avenir Next";
+}
+/* The Modal (background) */
+.modal {
+    padding-top: 8%;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    /*padding-top: 10px;*/
+}
+/* Modal Content/Box */
+.modal-content {
+    /*padding-top: 50px;*/
+    background-color: #fefefe;
+    border: 1px solid #888;
+    width: 70%;
+    height: 80%;
+    border-radius: 3.5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body.modal-open {
+    overflow: hidden;
+}
+/* Add Zoom Animation */
+.animate {
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.forgot-logo, .register-logo {
+    padding-top: 20px;
+    padding-right: 50px;
+}
+a{
+    color: white;
+}
+a:link {
+    text-decoration: none;
+    font-size: 30pt;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+.close {
+    position: absolute;
+    left: 97%;
+    top: -5px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    cursor: pointer;
+}
+.container{
+    height: 10px;
+    /*border-radius: 5px;*/
+    /*border: 1px solid #181818;*/
+    position: relative;
+}
+.classics-layout{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    /*background-color: white;*/
+    border-radius: 5px;
+    border: 1px solid #181818;
+}
+/*.section-link{*/
+/*width: 60%;*/
+/*height: 4%;*/
+/*background-color: white;*/
+/*border-radius: 2px;*/
+/*margin: 0 auto;*/
+/*}*/
+.classics-books{
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #181818;
+    margin: auto;
+}
+
+a.category-link{
+    color: white;
+}
+a.category-link:link{
+    font-size: 25pt;
+    padding-right: 20px;
+}
